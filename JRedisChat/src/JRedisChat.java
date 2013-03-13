@@ -119,7 +119,7 @@ public class JRedisChat implements IMessageEventListener
 			//[channel]
 			if (cmds[0].equals("/leave"))
 			{
-				this.interactiveUser.leave(cmds[2]);
+				this.interactiveUser.leave(cmds[1]);
 				return;
 			}
 				
